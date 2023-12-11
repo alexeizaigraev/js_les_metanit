@@ -11,4 +11,4 @@ const tom = new Person("Tom", 39);
 // обращение к свойству объекта
 console.log(tom.name); // Том
 // обращение к методу объекта
-tom.print();    // Name: Tom  Age: 39
+tom.print();    // Name: Tom  Age: 39 
