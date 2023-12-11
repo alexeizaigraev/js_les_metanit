@@ -1,3 +1,4 @@
+// инициализация и проход двумерного массива
 arr = []
 const arrSize = 5
 for(let i = 0; i < arrSize; i++) {
@@ -13,4 +14,8 @@ for(let i = 0; i < arrSize; i++) {
   for(let j = 0; j < arrSize; j++) {
     console.log(`${i}-${j}: ${arr[i][j]}`)
   }
+}
+
+for(const vec of arr) {
+  console.log(vec);
 }
