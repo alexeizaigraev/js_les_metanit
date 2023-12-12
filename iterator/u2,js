@@ -1,0 +1,10 @@
+const dict = new Map([["red", "красный"], ["green", "зеленый"], ["blue", "синий"]]);
+dict.forEach(function(value, key, map){
+    console.log(key, ":", value);
+})
+
+const dict2 = new Map([["red", "красный"], ["green", "зеленый"], ["blue", "синий"]]);
+ 
+for(item of dict2){
+    console.log(item[0], ":", item[1]);
+}
